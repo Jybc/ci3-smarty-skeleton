@@ -9,5 +9,7 @@
             "email": "sparkinzy@163.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
