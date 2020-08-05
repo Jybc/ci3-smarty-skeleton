@@ -7,3 +7,4 @@ package-lock.json
 /vendor/
 public/assets
 application/views/templates
+application/views/templates_c

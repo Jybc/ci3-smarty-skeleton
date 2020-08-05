@@ -28,8 +28,10 @@ class Smartie extends Smarty {
 		}
 		
 		// Uncomment these 2 lines to change Smarty's delimiters
-		// $this->left_delimiter = '{{';
-		// $this->right_delimiter = '}}';
+		 $this->left_delimiter = '{{';
+		 $this->right_delimiter = '}}';
+		 // 忽略左右定界符周围的空格
+		 $this->auto_literal = false;
 		
 		$this->assign( 'FCPATH', FCPATH );     // path to website
 		$this->assign( 'APPPATH', APPPATH );   // path to application directory

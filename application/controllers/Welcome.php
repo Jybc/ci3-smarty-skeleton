@@ -10,7 +10,7 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-//		$this->load->view('welcome_message');
-		return view('default.product.show');
+	    $data = ['title'=>'CI3-smarty'];
+		return view('index',$data);
 	}
 }
