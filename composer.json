@@ -1,2 +1,12 @@
 {
+    "name": "samuel/ci3-smarty-skeleton",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mu",
+            "email": "sparkinzy@163.com"
+        }
+    ],
+    "require": {}
 }
