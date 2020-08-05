@@ -1,0 +1,34 @@
+{
+	"name": "manage",
+	"version": "1.0.0",
+	"description": "mange",
+	"main": " ",
+	"scripts": {
+		"build": "gulp",
+		"dev": "gulp watch"
+	},
+	"author": "mu",
+	"license": "ISC",
+	"devDependencies": {
+		"autoconf": "^1.2.0",
+		"gulp": "^3.9.1",
+		"gulp-autoprefixer": "^6.1.0",
+		"gulp-cached": "^1.1.1",
+		"gulp-clean": "^0.4.0",
+		"gulp-clean-css": "^3.10.0",
+		"gulp-htmlmin": "^4.0.0",
+		"gulp-livereload": "^4.0.2",
+		"gulp-plumber": "^1.2.1",
+		"gulp-rev": "^8.1.1",
+		"gulp-rev-collector": "^1.3.1",
+		"gulp-sequence": "^1.0.0",
+		"gulp-uglify": "^3.0.2",
+		"gulp-watch": "^5.0.1",
+		"run-sequence": "^2.2.1",
+		"juyuan-gulp-rev": "^0.1.0"
+	},
+	"dependencies": {
+		"clipboard": "^2.0.6",
+		"sort-keys": "^4.0.0"
+	}
+}
